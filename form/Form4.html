@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>select option nd multiple option</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body bgcolor="wheat">
+                <form method="get">
+                    <fieldset><legend><b><i>Registration Form</i></b></legend>
+            First name : <input type="text" name="firstname" id="firstname" maxlength="" size=""><br><br>
+            Last name : <input type="text" name="lastname" id="lastname" maxlength="" size=""><br><br>
+            contact number : <input type="number" name="number" id="number" maxlength="10"><br><br>
+            Email : <input type="emil" name="email" id="email" maxlength="40" size=""><br><br>
+            About you : <textarea rows="" cols=""></textarea><br><br>
+            Password : <input type="password" name="password" id="password" maxlength="" size=""><br><br>
+            
+            Choose your gender : <input type="radio" name="gender" id="gender" value="Male"> Male <input type="radio" name="gender" id="gender" value="Female"> Female <br><br>  
+            Age : <select name="age" id="age">
+                         <option>Age</option><option>5 year</option><option>10year</option><option>15year</option><option>20year</option><option>25year</option><option>30year</option><option>40year</option>
+                         </select><br><br>
+            Choose your class : <input type="radio" name="class" id="class" value="School" checked="checked"> School <input type="radio" name="class" id="class" value="UG"> UG <input type="radio" name="class" id="class" value="PG"> PG <br><br>
+            Choose your hobbies : <input type="checkbox" name="hobbies" id="hobbies" value="Cricket" checked="checked"> Cricket <input type="checkbox" name="hobbies" id="hobbies" value="Football"> Football <input type="checkbox" name="hobbies" id="hobbies" value="hockey"> hockey
+            <br><br>
+            Choose month : <select name="month" id="month">
+                              <option>month</option><option>jan</option><option>feb</option><option>mar</option><option>april</option>
+            </select><br><br>
+            Choose Hobbies : <select name="hobbies" id="hobbies" multiple="multiple">
+                <option>Hobbies</option><option>reading books</option><optgroup label="sports"><option> playing cricket</option> <option>hockey</option> <option>football</option> <option>balliball</option></optgroup>
+            </select><br><br>
+                <option>watching television</option> <option>making friends</option> <option>laughing</option>
+            Choose Hobbies : <select name="hobbies" id="hobbies">
+                <option>Hobbies</option><option>reading books</option><optgroup label="sports"><option> playing cricket</option> <option>hockey</option> <option>football</option> <option>balliball</option></optgroup>
+                <option>watching television</option> <option>making friends</option> <option>laughing</option>
+            </select><br><br>
+            <fieldset color="yellow">
+            Full Name<input type="text" name="fullname" id="fullname" size="" maxlength=""><br><br>
+            Your File : <input type="file" size="30" accept=""><br><br>
+            Your Photo : <input type="file" size="30" accept="image/*"><br><br>
+            Your Audio : <input type="file" size="30" accept="audio/*"><br><br>
+            Your Video : <input type="file" size="30" accept="video/*"><br><br></fieldset>
+            <input type="checkbox" name="terms" id="terms" value="terms"> i accept the terms and conditions in this site.<br><br> 
+            <input type="button" name="visit" id="visit" value="click here" onClick="window.open('http://www.youtube.com');"><br><br>
+            <input type="image" name="image" id="image" src="image/submit.jpg"><br><br>
+            <input type="submit" id="redgestration" name="regestration" value="Regestration now"><br><br>
+            <input type="reset" id="reset" name="reset" value="clear all"><br><br>
+             Fill Registration Code : <input type="text" id="reg_code" name="reg_code" value="4CBXZ" readonly="readonly"><br><br>
+                          Fill Registration Code : <input type="text" id="reg_code" name="reg_code" value="4CBXZ" readonly="readonly" disabled="disabled"><br><br>
+            <input type="submit" value="submit"><br><br>
+           </fieldset>
+        </form>
+    </body>
+</html>
